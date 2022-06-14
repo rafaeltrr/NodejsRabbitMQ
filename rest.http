@@ -2,8 +2,12 @@ GET http://localhost:3001/
 Content-Type: application/json
 ###
 
-GET http://localhost:3001/user
-Content-Type: application/json
+POST http://localhost:3001/user
+content-type: application/json
+
+{
+  "name": "John Doe"
+}
 ###
 
 GET http://localhost:3000/
