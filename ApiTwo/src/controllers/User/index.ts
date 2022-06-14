@@ -1,7 +1,7 @@
 import { Router, Request, Response } from 'express';
 const route = Router();
 
-route.get('/user', (request: Request, response: Response) => {
+route.post('/user', (request: Request, response: Response) => {
     return response.json("Users");
 });
 
